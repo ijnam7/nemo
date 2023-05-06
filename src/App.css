@@ -1,7 +1,19 @@
 .App {
   text-align: center;
 }
-
+body{
+  font-family:
+  'nanumsquare';
+}
+.nav {
+  background: rgb(163, 163, 163);
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
