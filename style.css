@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#box{
+    display: relative;
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+}
+#leftSideBar {
+    background-color: aliceblue;
+    float: left;
+    height: 100%;
+    width: 10%;
+    position: relative;
+    padding: 10px;
+}
+#main {
+    background-color: #3c0;
+    float: right;
+    height: 100%;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+#memoList {
+    height: 80%;
+    background-color: black;
+}
+
+#oneMemo {
+    background-color: aquamarine;
+    
+}
+
+#inputMemo {
+    width: 80%
+}
+#inputButton {
+    width: 50px;
+}
